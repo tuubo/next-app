@@ -67,3 +67,13 @@ li {
 .tip-wrapper svg path {
   fill: #1ea7fd;
 }
+
+.c-icon {
+  --star-active: #fece3c;
+  --star-inactive: #6c6962;
+  fill: var(--star-inactive);
+}
+
+.c-icon.active {
+  fill: var(--star-active);
+}

@@ -10,6 +10,43 @@ export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
 
     <section>
       <h2>Pages in Storybook</h2>
+      <div>
+        <p>
+          <svg width="0" height="0" xmlns="http://www.w3.org/2000/svg">
+            <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="star">
+              <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" />
+            </symbol>
+          </svg>
+          <svg viewBox="0 0 18 18" id="star">
+            <defs>
+              <mask id="half">
+                <rect x="0" y="0" width="32" height="32" fill="white" />
+                <rect x="50%" y="0" width="32" height="32" fill="gray" />
+              </mask>
+              <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" id="star">
+                <path d="M9.5 14.25l-5.584 2.936 1.066-6.218L.465 6.564l6.243-.907L9.5 0l2.792 5.657 6.243.907-4.517 4.404 1.066 6.218" />
+              </symbol>
+            </defs>
+          </svg>
+        </p>
+        <p className="c-rate" area-label="Rationg is 4 out of 5">
+          <svg className="c-icon active" width="32" height="32">
+            <use href="#star"></use>
+          </svg>
+          <svg className="c-icon active" width="32" height="32">
+            <use href="#star"></use>
+          </svg>
+          <svg className="c-icon active" width="32" height="32">
+            <use href="#star"></use>
+          </svg>
+          <svg className="c-icon active" width="32" height="32">
+            <use href="#star"></use>
+          </svg>
+          <svg className="c-icon" width="32" height="32">
+            <use href="#star" mask="url(#half)" fill="#fece3c"></use>
+          </svg>
+        </p>
+      </div>
       <p>
         We recommend building UIs with a{' '}
         <a href="https://componentdriven.org" target="_blank" rel="noopener noreferrer">
