@@ -1,3 +1,4 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 import React from 'react';
 
 import { Button } from './Button';

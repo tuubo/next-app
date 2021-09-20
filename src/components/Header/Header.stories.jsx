@@ -1,8 +1,9 @@
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 import React from 'react';
 
 import { Header } from './Header';
 
-export default {
+export default  {
   title: 'Example/Header',
   component: Header,
 };
